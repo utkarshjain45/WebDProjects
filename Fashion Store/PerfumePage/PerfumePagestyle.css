@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+a{
+    color: black;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+header{
+    height: 60px;
+    background-color: #806BDC;
+    text-align: center;
+}
+
+.NavBar{
+    padding-top: 18px;
+    padding-left: 40px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.NavBar-right{
+    padding-top: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.NavBar-right ul{
+    display: inline-flex;
+    gap: 40px;
+    color: rgb(237, 231, 231);
+}
+.NavBar-right ul li{
+    color: rgb(237, 231, 231);
+    text-decoration: none;
+}
+
+#navbar-title{
+    color: white;
+    font-size: 25px;
+}
+.Items{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#item-table{
+    width: 100%;
+    text-align: center;
+}
+
+.Item-img{
+    height: 64px;
+}
+
+.Item-tag{
+    font-size: 14px;
+}
+
+.Item-tag:hover{
+    color: #806BDC;
+}
+footer{
+    height: 50px;
+    padding-top: 28px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}   
+.CardContainer{
+    display: flex;
+    margin-left: 18px;
+    margin-right: 18px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgb(223, 216, 207);
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 260px;
+    margin: 25px;
+    border: 1px solid wheat;
+    border-radius: 3%;
+    justify-content: space-between;
+}
+.upimage{
+    width: 250px;
+    height: 130px;
+}
+.upimage img{
+    width: 100%;
+    height: 100%;
+}
+.downimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 65px;
+}
+#cartbutton{
+    width: 150px;
+    height: 80px;
+}
+.centerbox{
+    display: flex;
+    width: 250px;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

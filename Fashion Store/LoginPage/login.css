@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+a{
+    color: black;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+header{
+    height: 60px;
+    background-color: #806BDC;
+    text-align: center;
+}
+
+.NavBar{
+    padding-top: 18px;
+    padding-left: 40px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.NavBar-right{
+    padding-top: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.NavBar-right ul{
+    display: inline-flex;
+    gap: 40px;
+    color: rgb(237, 231, 231);
+}
+.NavBar-right ul li{
+    color: rgb(237, 231, 231);
+    text-decoration: none;
+}
+#navbar-title{
+    color: white;
+    font-size: 25px;
+}
+.card{
+    margin: 40px;
+    padding: 15px;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    border: 0.3px solid gray;
+    border-radius: 5%;
+    background-color: rgb(247, 241, 241);
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 330px;
+    width: 350px;
+} 
+#loginbutton{
+    background-color: white;
+    text-decoration: none;
+    border: 0;
+} 
+#Forgot{
+    font-size: smaller;
+    font-weight: 100;
+    color: rgb(105, 105, 211);
+}
+#Forgot:hover{
+    color: rgb(66, 66, 129);
+}
+#signup{
+    border: 0.6px solid;
+    border-radius: 20%;
+} 
+footer{
+    height: 50px;
+    padding-top: 28px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+.footer{
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
