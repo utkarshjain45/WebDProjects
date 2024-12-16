@@ -3,19 +3,16 @@
     padding: 0;
     font-family: Arial, sans-serif;
 }
-
 a{
     color: black;
     font-weight: 550;
     text-decoration: none;
 }
-
 header{
     height: 60px;
     background-color: #806BDC;
     text-align: center;
 }
-
 .NavBar{
     padding-top: 18px;
     padding-left: 40px;
@@ -41,37 +38,97 @@ header{
     color: white;
     font-size: 25px;
 }
-.card{
+.glass-container {
     margin: 40px;
+    margin-left: 450px;
     padding: 15px;
     background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
-    border: 0.3px solid gray;
-    border-radius: 5%;
-    background-color: rgb(247, 241, 241);
-    justify-self: center;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #B5FFFC;
+}
+
+.login-box {
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+h2 {
+    color: black;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+form {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    height: 330px;
-    width: 350px;
-} 
-#loginbutton{
-    background-color: white;
+    margin-top: 20px;
+}
+input {
+    padding: 10px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: black;
+    font-size: 13px;
+}
+input::placeholder {
+    color: black;
+}
+input:focus {
+    outline: none;
+}
+.options {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 12px;
+    color: black;
+}
+.options input {
+    margin-right: 5px;
+    margin-top: 0px;
+}
+.options a {
     text-decoration: none;
-    border: 0;
-} 
-#Forgot{
-    font-size: smaller;
-    font-weight: 100;
+    color: black;
+    margin-left: auto;
+}
+button {
+    background: #fff;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: transparent;
+    color: black;
+    outline: 1px solid #fff;
+}
+
+p {
+    font-size: 12px;
+    color: black;
+    margin-top: 15px;
+}
+#register {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#forgot{
     color: rgb(105, 105, 211);
 }
-#Forgot:hover{
+#forgot:hover{
     color: rgb(66, 66, 129);
 }
-#signup{
-    border: 0.6px solid;
-    border-radius: 20%;
-} 
 footer{
     height: 50px;
     padding-top: 28px;

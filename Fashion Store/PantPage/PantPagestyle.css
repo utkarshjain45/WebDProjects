@@ -88,19 +88,22 @@ footer{
     display: flex;
     flex-direction: column;
     width: 250px;
-    height: 260px;
+    height: 280px;
     margin: 25px;
     border: 1px solid wheat;
     border-radius: 3%;
     justify-content: space-between;
 }
 .upimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 250px;
-    height: 130px;
+    height: 150px;
 }
 .upimage img{
-    width: 100%;
-    height: 100%;
+    width: 230px;
+    height: 150px;
 }
 .downimage{
     display: flex;

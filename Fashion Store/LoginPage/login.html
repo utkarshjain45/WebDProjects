@@ -18,33 +18,34 @@
 	        <ul type="none">
                 <a href="../HomePage/index.html"><li>Home</li></a>
                 <a href="#"><li>About</li></a>
-                <a href="#"><li>Contact Us</li></a>
+                <!-- <a href="#"><li>Contact Us</li></a> -->
             </ul>
 	    </div>
 	    </div>
 	</header>
 
-        <div class="card">
-            <div class="formBox">
-                <h1>Login Page</h1><br>
-                <label for="username">Username: </label>
-                <input type="text" id="username">
-                <br><br>
-            
-                <label for="password">Password: </label>
-                <input type="text" id="password">
-                <br><br>
-            
-                <button id="loginbutton">Login</button>
-                <input type="Reset" value="Reset">      
-                <br><br>
-                <a href=""><p id="Forgot">Forgot Password?</p></a>
-                <br><br>
-                <center><p>New to FashionStore.com</p></center>
-                <br><br>    
-                <p><center><a href="" id="signup">Sign Up</a></center></p>  
-            </div>
+    <div class="glass-container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form action="#" method="POST">
+
+                <input type="text" id="username" name="username" required placeholder="Username">
+                
+                <input type="password" id="password" name="password" required placeholder="Password">
+                
+                <div class="options">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember me</label>
+                    <a href="#" id="forgot">Forgot Password?</a>
+                </div>
+                
+                <button type="submit">Login</button>
+                <br>
+
+                <p>New to Fashion Store.com? <a href="#" id="register">Register</a></p>
+            </form>
         </div>
+    </div>
 
         <div class="footer">
             <footer>
